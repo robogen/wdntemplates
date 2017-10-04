@@ -15,10 +15,10 @@
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="head" -->
 <!-- Place optional header elements here -->
-<link rel="home" href="http://wdn.unl.edu" />
+<link rel="home" href="https://wdn.unl.edu" />
 <script>
 require(['jquery', 'wdn', 'require', 'legacy', 'navigation'], function($, WDN, require, legacy, navigation) {
-    navigation.fetchSiteNavigation('http://wdn.unl.edu/', function(data, textStatus) {
+    navigation.fetchSiteNavigation('https://wdn.unl.edu/', function(data, textStatus) {
     	if (textStatus == 'success') {
     		$(function() {
     			$('#navigation').prepend(data);
@@ -190,7 +190,7 @@ require(['jquery', 'wdn', 'require', 'legacy', 'navigation'], function($, WDN, r
         <!--#include virtual="/wdn/templates_4.1/includes/noscript-padding.html" -->
         <header id="header" role="banner" class="wdn-content-slide wdn-band">
             <div id="wdn_header_top">
-                <span id="wdn_institution_title"><a href="http://www.unl.edu/">University of Nebraska&ndash;Lincoln</a></span>
+                <span id="wdn_institution_title"><a href="https://www.unl.edu/">University of Nebraska&ndash;Lincoln</a></span>
                 <div id="wdn_resources">
                     <!--#include virtual="/wdn/templates_4.1/includes/wdnResources.html" -->
                     <!--#include virtual="/wdn/templates_4.1/includes/idm.html" -->
@@ -209,9 +209,9 @@ require(['jquery', 'wdn', 'require', 'legacy', 'navigation'], function($, WDN, r
             <nav id="breadcrumbs" class="wdn-inner-wrapper" role="navigation" aria-label="breadcrumbs">
                 <!-- InstanceBeginEditable name="breadcrumbs" -->
                 <ul>
-                    <li><a href="http://www.unl.edu/" title="University of Nebraska&ndash;Lincoln">UNL</a></li>
-                    <li id="wdnlink"><a href="http://wdn.unl.edu/">Web Developer Network</a></li>
-                    <li><a href="http://wdn.unl.edu/resources/">Resources</a></li>
+                    <li><a href="https://www.unl.edu/" title="University of Nebraska&ndash;Lincoln">UNL</a></li>
+                    <li id="wdnlink"><a href="https://wdn.unl.edu/">Web Developer Network</a></li>
+                    <li><a href="https://wdn.unl.edu/resources/">Resources</a></li>
                     <li>Content Resource Examples</li>
                 </ul>
                 <!-- InstanceEndEditable -->
